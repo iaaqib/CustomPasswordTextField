@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0D31841F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D31831F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.swift */; };
 		7B18DA881F3790BA003F99A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18DA871F3790BA003F99A3 /* AppDelegate.swift */; };
 		7B18DA8A1F3790BA003F99A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18DA891F3790BA003F99A3 /* ViewController.swift */; };
 		7B18DA8D1F3790BA003F99A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18DA8B1F3790BA003F99A3 /* Main.storyboard */; };
 		7B18DA8F1F3790BB003F99A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B18DA8E1F3790BB003F99A3 /* Assets.xcassets */; };
 		7B18DA921F3790BB003F99A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B18DA901F3790BB003F99A3 /* LaunchScreen.storyboard */; };
+		7B18DA9A1F3790EC003F99A3 /* CustomPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18DA991F3790EC003F99A3 /* CustomPasswordTextField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B0D31861F3ADC7C00D3931A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B18DA7C1F3790B9003F99A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B18DA831F3790BA003F99A3;
+			remoteInfo = CustomPasswordTextField;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7B0D31811F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPasswordTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0D31831F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextFieldUITests.swift; sourceTree = "<group>"; };
+		7B0D31851F3ADC7C00D3931A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B18DA841F3790BA003F99A3 /* CustomPasswordTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPasswordTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B18DA871F3790BA003F99A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B18DA891F3790BA003F99A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,9 +37,17 @@
 		7B18DA8E1F3790BB003F99A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B18DA911F3790BB003F99A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B18DA931F3790BC003F99A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18DA991F3790EC003F99A3 /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B0D317E1F3ADC7B00D3931A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B18DA811F3790BA003F99A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +58,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0B32311F3BC3AE0043D2E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B0B32321F3BC3B80043D2E7 /* CustomTextField */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B0B32321F3BC3B80043D2E7 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				7B18DA991F3790EC003F99A3 /* CustomPasswordTextField.swift */,
+			);
+			name = CustomTextField;
+			sourceTree = "<group>";
+		};
+		7B0D31821F3ADC7B00D3931A /* CustomPasswordTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D31831F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.swift */,
+				7B0D31851F3ADC7C00D3931A /* Info.plist */,
+			);
+			path = CustomPasswordTextFieldUITests;
+			sourceTree = "<group>";
+		};
 		7B18DA7B1F3790B9003F99A3 = {
 			isa = PBXGroup;
 			children = (
 				7B18DA861F3790BA003F99A3 /* CustomPasswordTextField */,
+				7B0D31821F3ADC7B00D3931A /* CustomPasswordTextFieldUITests */,
 				7B18DA851F3790BA003F99A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				7B18DA841F3790BA003F99A3 /* CustomPasswordTextField.app */,
+				7B0D31811F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +104,7 @@
 		7B18DA861F3790BA003F99A3 /* CustomPasswordTextField */ = {
 			isa = PBXGroup;
 			children = (
+				7B0B32311F3BC3AE0043D2E7 /* View */,
 				7B18DA871F3790BA003F99A3 /* AppDelegate.swift */,
 				7B18DA891F3790BA003F99A3 /* ViewController.swift */,
 				7B18DA8B1F3790BA003F99A3 /* Main.storyboard */,
@@ -67,6 +118,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7B0D31801F3ADC7B00D3931A /* CustomPasswordTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0D318A1F3ADC7C00D3931A /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldUITests" */;
+			buildPhases = (
+				7B0D317D1F3ADC7B00D3931A /* Sources */,
+				7B0D317E1F3ADC7B00D3931A /* Frameworks */,
+				7B0D317F1F3ADC7B00D3931A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B0D31871F3ADC7C00D3931A /* PBXTargetDependency */,
+			);
+			name = CustomPasswordTextFieldUITests;
+			productName = CustomPasswordTextFieldUITests;
+			productReference = 7B0D31811F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		7B18DA831F3790BA003F99A3 /* CustomPasswordTextField */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B18DA961F3790BC003F99A3 /* Build configuration list for PBXNativeTarget "CustomPasswordTextField" */;
@@ -90,10 +159,15 @@
 		7B18DA7C1F3790B9003F99A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Aaqib Hussain";
 				TargetAttributes = {
+					7B0D31801F3ADC7B00D3931A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B18DA831F3790BA003F99A3;
+					};
 					7B18DA831F3790BA003F99A3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -114,11 +188,19 @@
 			projectRoot = "";
 			targets = (
 				7B18DA831F3790BA003F99A3 /* CustomPasswordTextField */,
+				7B0D31801F3ADC7B00D3931A /* CustomPasswordTextFieldUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7B0D317F1F3ADC7B00D3931A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B18DA821F3790BA003F99A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,16 +214,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B0D317D1F3ADC7B00D3931A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0D31841F3ADC7B00D3931A /* CustomPasswordTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B18DA801F3790BA003F99A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7B18DA8A1F3790BA003F99A3 /* ViewController.swift in Sources */,
 				7B18DA881F3790BA003F99A3 /* AppDelegate.swift in Sources */,
+				7B18DA9A1F3790EC003F99A3 /* CustomPasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B0D31871F3ADC7C00D3931A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B18DA831F3790BA003F99A3 /* CustomPasswordTextField */;
+			targetProxy = 7B0D31861F3ADC7C00D3931A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B18DA8B1F3790BA003F99A3 /* Main.storyboard */ = {
@@ -163,6 +262,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7B0D31881F3ADC7C00D3931A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CustomPasswordTextFieldUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.KodeSnippets.CustomPasswordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomPasswordTextField;
+			};
+			name = Debug;
+		};
+		7B0D31891F3ADC7C00D3931A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CustomPasswordTextFieldUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.KodeSnippets.CustomPasswordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomPasswordTextField;
+			};
+			name = Release;
+		};
 		7B18DA941F3790BC003F99A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -281,6 +408,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7B0D318A1F3ADC7C00D3931A /* Build configuration list for PBXNativeTarget "CustomPasswordTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0D31881F3ADC7C00D3931A /* Debug */,
+				7B0D31891F3ADC7C00D3931A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7B18DA7F1F3790B9003F99A3 /* Build configuration list for PBXProject "CustomPasswordTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -297,6 +433,7 @@
 				7B18DA981F3790BC003F99A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
