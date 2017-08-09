@@ -3,6 +3,7 @@ A custom password textfield with options to change the masking character as well
 
 ![alt tag](https://github.com/iaaqib/CustomPasswordTextField/blob/master/Screenshot/Simulator%20Screen%20Shot%2010%20Aug%202017%2C%203.27.36%20am.png)
 
+
 # Properties
 <pre>
  
@@ -69,3 +70,7 @@ A custom password textfield with options to change the masking character as well
      
      var onHideToggleText: String = "HIDE"
 </pre>
+
+<hr>
+<h3>Android Version</h3>
+https://github.com/iaaqib/CustomPasswordEditText.git
